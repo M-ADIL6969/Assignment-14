@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F8FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* CV Container */
+  .cv-container {
+    display: flex;
+    width: 900px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Left Section */
+  .left-section {
+    width: 35%;
+    background: #D9EAFD;
+    color: #333;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .left-section .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  
+  .left-section h1 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+  }
+  
+  .left-section p {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  
+  .left-section h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .left-section .contact, 
+  .left-section .skills {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .left-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .left-section ul li {
+    padding: 5px 0;
+  }
+  
+  /* Right Section */
+  .right-section {
+    width: 65%;
+    padding: 30px;
+    background: #F8FAFC;
+  }
+  
+  .right-section h2 {
+    color: #3674B5;
+    font-size: 20px;
+    border-bottom: 2px solid #D9EAFD;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .right-section section {
+    margin-bottom: 20px;
+  }
+  
+  .job h3 {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .job p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .job ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  /* Skills Section */
+  ul.skills {
+    padding: 0;
+  }
+  
+  ul.skills li {
+    background: #D9EAFD;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design
+  @media (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+        width: 90%;
+    }
+  
+    .left-section {
+        width: 100%;
+        padding: 20px;
+    }
+  
+    .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+  } */
+  
